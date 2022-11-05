@@ -5,9 +5,9 @@ selenium
 tqdm
 
 # huggingface packages
-transformers
-datasets
-evaluate
+transformers==4.23.1
+datasets==2.6.1
+evaluate==0.3.0
 
 # install PyTorch version compatible with A100 GPU
 torch==1.9.0+cu111
